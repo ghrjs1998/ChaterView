@@ -34,13 +34,13 @@ ChaterView는 iOS 기반의 면접 연습 앱으로, iOS/프론트/백엔드/안
 <img src="https://github.com/user-attachments/assets/e97c4dd7-3f5a-4dee-8096-cb20cae15aae" width="300" alt="로그인 화면" />
 
 ### 🏠 홈 화면
-![Simulator Screenshot - iPhone 16 Pro - 2025-05-19 at 21 09 11](https://github.com/user-attachments/assets/edcd4627-5475-445f-901a-88570defe0fd)
+<img src="https://github.com/user-attachments/assets/edcd4627-5475-445f-901a-88570defe0fd" width="300" alt="홈 화면" />
 
 ### 💬 질문 화면 
-![Simulator Screenshot - iPhone 16 Pro - 2025-05-19 at 21 09 20](https://github.com/user-attachments/assets/a14b7208-1ef3-42bf-8b7d-c6010e49e5bc)
+<img src="https://github.com/user-attachments/assets/a14b7208-1ef3-42bf-8b7d-c6010e49e5bc" width="300" alt="질문 화면" />
 
 ### ⚙️ 설정 화면
-![onboarding_settings 1 4](https://github.com/user-attachments/assets/7df5419f-c889-4360-b6bd-58bf48fc95e0)
+<img src="https://github.com/user-attachments/assets/7df5419f-c889-4360-b6bd-58bf48fc95e0" width="300" alt="설정 화면" />
  
 ---
 
