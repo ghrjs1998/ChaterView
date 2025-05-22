@@ -1,0 +1,296 @@
+[
+    {
+        "id": "22222222-2222-2222-2222-000000000001",
+        "category": "backend",
+        "question": "REST API와 RESTful의 차이는?",
+        "sampleAnswer": "REST는 아키텍처 스타일이고, RESTful은 이를 잘 따르는 API를 의미합니다.",
+        "keywords": ["REST", "RESTful", "아키텍처", "API"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000002",
+        "category": "backend",
+        "question": "JWT는 무엇이고 언제 사용하나요?",
+        "sampleAnswer": "JWT는 JSON Web Token으로, 주로 사용자 인증과 권한 검증에 사용됩니다.",
+        "keywords": ["JWT", "JSON Web Token", "인증", "권한", "검증"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000003",
+        "category": "backend",
+        "question": "HTTP와 HTTPS의 차이는 무엇인가요?",
+        "sampleAnswer": "HTTPS는 SSL/TLS를 이용해 데이터를 암호화하며, HTTP는 그렇지 않습니다.",
+        "keywords": ["HTTP", "HTTPS", "SSL", "TLS", "암호화"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000004",
+        "category": "backend",
+        "question": "SQL과 NoSQL의 차이점은 무엇인가요?",
+        "sampleAnswer": "SQL은 정형 데이터에 적합하고, NoSQL은 유연한 스키마와 확장성을 가집니다.",
+        "keywords": ["SQL", "NoSQL", "정형 데이터", "스키마", "확장성"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000005",
+        "category": "backend",
+        "question": "MVC 패턴은 무엇이며 어떻게 구성되나요?",
+        "sampleAnswer": "MVC는 Model-View-Controller의 약자로, 각 계층을 분리하여 책임을 나눕니다.",
+        "keywords": ["MVC", "Model", "View", "Controller", "아키텍처"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000006",
+        "category": "backend",
+        "question": "데이터베이스 인덱스는 무엇이고 왜 사용하나요?",
+        "sampleAnswer": "인덱스는 검색 성능을 높이기 위해 사용하는 자료 구조입니다.",
+        "keywords": ["인덱스", "데이터베이스", "검색", "성능", "자료 구조"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000007",
+        "category": "backend",
+        "question": "트랜잭션이란 무엇이며 ACID란?",
+        "sampleAnswer": "트랜잭션은 작업의 단위이고, ACID는 원자성, 일관성, 고립성, 지속성을 뜻합니다.",
+        "keywords": ["트랜잭션", "ACID", "원자성", "일관성", "고립성", "지속성"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000008",
+        "category": "backend",
+        "question": "로드 밸런싱은 왜 필요한가요?",
+        "sampleAnswer": "로드 밸런싱은 서버 부하를 분산시켜 안정성과 성능을 향상시킵니다.",
+        "keywords": ["로드 밸런싱", "서버", "부하 분산", "성능", "안정성"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000009",
+        "category": "backend",
+        "question": "OAuth와 JWT의 차이는?",
+        "sampleAnswer": "OAuth는 인증 프로토콜이고, JWT는 인증 토큰 형식입니다.",
+        "keywords": ["OAuth", "JWT", "인증", "프로토콜", "토큰"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000010",
+        "category": "backend",
+        "question": "API 게이트웨이란 무엇인가요?",
+        "sampleAnswer": "API 게이트웨이는 마이크로서비스의 엔트리포인트로 인증, 라우팅 등을 담당합니다.",
+        "keywords": ["API 게이트웨이", "마이크로서비스", "라우팅", "인증", "엔트리포인트"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000011",
+        "category": "backend",
+        "question": "CORS란 무엇이고 왜 필요한가요?",
+        "sampleAnswer": "CORS는 Cross-Origin Resource Sharing으로, 브라우저 보안 정책입니다.",
+        "keywords": ["CORS", "Cross-Origin", "리소스", "보안", "정책"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000012",
+        "category": "backend",
+        "question": "Docker의 주요 개념은 무엇인가요?",
+        "sampleAnswer": "Docker는 컨테이너 기반 가상화 기술로, 경량화된 환경에서 애플리케이션을 실행합니다.",
+        "keywords": ["Docker", "컨테이너", "가상화", "환경", "애플리케이션"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000013",
+        "category": "backend",
+        "question": "마이크로서비스 아키텍처(MSA)의 장단점은?",
+        "sampleAnswer": "MSA는 서비스 간 독립성을 통해 확장성과 유연성이 높지만, 복잡성과 분산 트랜잭션 관리가 어렵습니다.",
+        "keywords": ["MSA", "마이크로서비스", "확장성", "분산 트랜잭션", "복잡성"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000014",
+        "category": "backend",
+        "question": "Redis는 어떤 용도로 사용되나요?",
+        "sampleAnswer": "Redis는 인메모리 키-값 저장소로 캐싱, 세션 저장, 메시지 큐 등에 사용됩니다.",
+        "keywords": ["Redis", "캐싱", "세션", "메시지 큐", "인메모리"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000015",
+        "category": "backend",
+        "question": "웹 서버와 WAS(Web Application Server)의 차이는?",
+        "sampleAnswer": "웹 서버는 정적 파일 처리, WAS는 동적 웹 애플리케이션 실행을 담당합니다.",
+        "keywords": ["웹 서버", "WAS", "정적", "동적", "처리"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000016",
+        "category": "backend",
+        "question": "CI/CD란 무엇인가요?",
+        "sampleAnswer": "CI는 지속적인 통합, CD는 지속적인 배포를 의미하며, 자동화된 배포 파이프라인을 구성합니다.",
+        "keywords": ["CI", "CD", "지속적 통합", "지속적 배포", "자동화"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000017",
+        "category": "backend",
+        "question": "GraphQL과 REST API의 차이는?",
+        "sampleAnswer": "GraphQL은 필요한 데이터만 요청할 수 있고, REST는 정해진 엔드포인트를 사용합니다.",
+        "keywords": ["GraphQL", "REST", "엔드포인트", "요청", "데이터"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000018",
+        "category": "backend",
+        "question": "비동기 처리 방식에는 어떤 것이 있나요?",
+        "sampleAnswer": "콜백, Promise, 이벤트 큐, 메시지 브로커 등으로 비동기 처리를 구현할 수 있습니다.",
+        "keywords": ["비동기", "콜백", "Promise", "이벤트 큐", "메시지 브로커"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000019",
+        "category": "backend",
+        "question": "TCP와 UDP의 차이는 무엇인가요?",
+        "sampleAnswer": "TCP는 연결 지향적이고 신뢰성 있는 전송, UDP는 빠르지만 비신뢰성입니다.",
+        "keywords": ["TCP", "UDP", "연결 지향", "비신뢰성", "전송"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000020",
+        "category": "backend",
+        "question": "백엔드에서 캐싱 전략은 어떻게 구성하나요?",
+        "sampleAnswer": "캐싱은 데이터의 특성과 요청 빈도에 따라 TTL, LRU, preloading 등의 전략으로 구성됩니다.",
+        "keywords": ["캐싱", "전략", "TTL", "LRU", "preloading"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000021",
+        "category": "backend",
+        "question": "서버리스(Serverless) 아키텍처의 특징은?",
+        "sampleAnswer": "서버 관리를 하지 않고, 이벤트 기반 함수 실행 모델로 확장성과 비용 효율이 높습니다.",
+        "keywords": ["서버리스", "Serverless", "이벤트", "확장성", "비용 효율"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000022",
+        "category": "backend",
+        "question": "도메인 주도 설계(DDD)의 핵심 개념은?",
+        "sampleAnswer": "DDD는 복잡한 비즈니스 로직을 도메인 중심으로 모델링하고 Ubiquitous Language를 강조합니다.",
+        "keywords": ["DDD", "도메인 주도 설계", "모델링", "Ubiquitous Language", "비즈니스 로직"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000023",
+        "category": "backend",
+        "question": "REST API 설계 시 고려해야 할 베스트 프랙티스는?",
+        "sampleAnswer": "명확한 리소스 명칭, HTTP 메서드 준수, 상태 코드 적절 활용 등을 고려해야 합니다.",
+        "keywords": ["REST", "HTTP 메서드", "상태 코드", "리소스 명칭", "베스트 프랙티스"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000024",
+        "category": "backend",
+        "question": "RDBMS와 NoSQL의 선택 기준은 무엇인가요?",
+        "sampleAnswer": "정형화된 데이터와 트랜잭션이 중요하면 RDBMS, 유연성과 확장성이 중요하면 NoSQL을 선택합니다.",
+        "keywords": ["RDBMS", "NoSQL", "트랜잭션", "확장성", "정형 데이터"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000025",
+        "category": "backend",
+        "question": "OAuth 2.0의 주요 흐름은 어떻게 되나요?",
+        "sampleAnswer": "클라이언트가 인증 서버로부터 토큰을 발급받고, 이를 사용해 API를 호출하는 방식입니다.",
+        "keywords": ["OAuth 2.0", "토큰", "인증 서버", "API 호출", "인증 흐름"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000026",
+        "category": "backend",
+        "question": "gRPC란 무엇이며 REST와의 차이점은?",
+        "sampleAnswer": "gRPC는 HTTP/2 기반의 고성능 RPC 프레임워크로, REST보다 빠르고 바이너리 전송을 지원합니다.",
+        "keywords": ["gRPC", "REST", "HTTP/2", "RPC", "바이너리"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000027",
+        "category": "backend",
+        "question": "API Rate Limiting이란 무엇인가요?",
+        "sampleAnswer": "Rate Limiting은 일정 시간 동안 API 요청 수를 제한하여 서버 과부하를 방지합니다.",
+        "keywords": ["Rate Limiting", "API", "요청 제한", "서버 과부하", "보호"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000028",
+        "category": "backend",
+        "question": "CQRS 패턴이란 무엇이고 언제 사용하나요?",
+        "sampleAnswer": "CQRS는 명령과 조회를 분리해 확장성과 성능 최적화를 돕는 아키텍처 패턴입니다.",
+        "keywords": ["CQRS", "명령", "조회", "성능 최적화", "확장성"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000029",
+        "category": "backend",
+        "question": "메시지 큐(Message Queue)의 사용 이유는?",
+        "sampleAnswer": "비동기 통신과 시스템 간 결합도 감소를 위해 메시지 큐를 사용합니다.",
+        "keywords": ["메시지 큐", "비동기", "결합도 감소", "통신", "RabbitMQ", "Kafka"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000030",
+        "category": "backend",
+        "question": "백엔드에서 스케줄러(Scheduler)는 어떤 역할을 하나요?",
+        "sampleAnswer": "스케줄러는 정해진 시간에 특정 작업(예: 데이터 백업, 이메일 발송 등)을 자동으로 수행합니다.",
+        "keywords": ["스케줄러", "정기 작업", "자동화", "백업", "이메일 발송"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000031",
+        "category": "backend",
+        "question": "API 버전 관리는 어떻게 해야 하나요?",
+        "sampleAnswer": "URL 버전(v1/v2) 또는 헤더 버전 관리 방법을 사용하여 API 변경을 관리합니다.",
+        "keywords": ["API 버전 관리", "v1", "v2", "URL 버전", "헤더 버전"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000032",
+        "category": "backend",
+        "question": "Elasticsearch는 어떤 경우에 활용되나요?",
+        "sampleAnswer": "Elasticsearch는 대용량 데이터의 검색, 분석 및 로깅에 최적화된 검색 엔진입니다.",
+        "keywords": ["Elasticsearch", "검색", "대용량 데이터", "로그 분석", "검색 엔진"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000033",
+        "category": "backend",
+        "question": "API 보안에서 가장 중요한 고려사항은 무엇인가요?",
+        "sampleAnswer": "인증, 인가, Rate Limiting, 입력 검증, HTTPS 사용 등이 중요합니다.",
+        "keywords": ["보안", "인증", "인가", "입력 검증", "HTTPS"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000034",
+        "category": "backend",
+        "question": "Session과 Token 기반 인증의 차이는?",
+        "sampleAnswer": "Session은 서버에 상태를 저장하고, Token은 클라이언트에 인증 정보를 저장합니다.",
+        "keywords": ["Session", "Token", "상태 저장", "무상태", "인증"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000035",
+        "category": "backend",
+        "question": "Kafka의 주요 특징은 무엇인가요?",
+        "sampleAnswer": "Kafka는 분산 스트리밍 플랫폼으로, 대용량 데이터를 빠르고 안정적으로 처리합니다.",
+        "keywords": ["Kafka", "스트리밍", "분산", "메시지", "데이터 처리"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000036",
+        "category": "backend",
+        "question": "서킷 브레이커(Circuit Breaker) 패턴은 무엇인가요?",
+        "sampleAnswer": "외부 시스템 오류가 지속되면 호출을 차단해 시스템 전체 장애를 방지하는 패턴입니다.",
+        "keywords": ["서킷 브레이커", "패턴", "장애 방지", "안정성", "에러 핸들링"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000037",
+        "category": "backend",
+        "question": "모놀리식과 마이크로서비스의 차이는?",
+        "sampleAnswer": "모놀리식은 하나의 애플리케이션, 마이크로서비스는 기능별로 분리된 독립 서비스입니다.",
+        "keywords": ["모놀리식", "마이크로서비스", "아키텍처", "서비스 분리", "독립성"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000038",
+        "category": "backend",
+        "question": "API 응답 속도를 개선하는 방법은?",
+        "sampleAnswer": "캐싱, 비동기 처리, 쿼리 최적화, Content-Encoding, DB 튜닝 등을 활용합니다.",
+        "keywords": ["API", "성능", "캐싱", "비동기", "쿼리 최적화"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000039",
+        "category": "backend",
+        "question": "DNS는 무엇이고 어떻게 작동하나요?",
+        "sampleAnswer": "DNS는 도메인 이름을 IP 주소로 변환하는 시스템으로, 계층적 구조로 작동합니다.",
+        "keywords": ["DNS", "도메인", "IP 주소", "네임서버", "변환"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000040",
+        "category": "backend",
+        "question": "서버 캐시와 CDN의 차이는 무엇인가요?",
+        "sampleAnswer": "서버 캐시는 애플리케이션 내부, CDN은 전 세계 분산된 네트워크에서 캐싱합니다.",
+        "keywords": ["캐시", "CDN", "서버", "분산 네트워크", "성능"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000041",
+        "category": "backend",
+        "question": "Rate Limiting은 어떻게 구현하나요?",
+        "sampleAnswer": "IP, 사용자 기준으로 요청 수를 카운트하고, Redis나 Token Bucket 알고리즘을 활용합니다.",
+        "keywords": ["Rate Limiting", "Redis", "요청 제한", "Token Bucket", "사용자 기준"]
+    },
+    {
+        "id": "22222222-2222-2222-2222-000000000042",
+        "category": "backend",
+        "question": "백엔드에서 테스트 전략은 어떻게 구성하나요?",
+        "sampleAnswer": "단위 테스트, 통합 테스트, E2E 테스트, Mocking 전략 등을 조합해 구성합니다.",
+        "keywords": ["테스트", "단위 테스트", "통합 테스트", "E2E", "Mock"]
+    },
+]

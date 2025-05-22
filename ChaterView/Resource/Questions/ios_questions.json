@@ -1,0 +1,296 @@
+[
+    {
+        "id": "44444444-4444-4444-4444-000000000001",
+        "category": "ios",
+        "question": "Swift의 struct와 class의 차이점은 무엇인가요?",
+        "sampleAnswer": "struct는 값 타입이고, class는 참조 타입입니다. struct는 복사가 일어나고, class는 참조가 공유됩니다.",
+        "keywords": ["값 타입", "참조 타입", "복사", "공유"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000002",
+        "category": "ios",
+        "question": "Combine 프레임워크는 어떤 역할을 하나요?",
+        "sampleAnswer": "Combine은 비동기 이벤트 스트림을 처리하기 위한 Apple의 반응형 프레임워크입니다.",
+        "keywords": ["Combine", "비동기", "이벤트", "반응형", "스트림"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000003",
+        "category": "ios",
+        "question": "Swift에서 ARC는 무엇인가요?",
+        "sampleAnswer": "ARC는 Automatic Reference Counting의 약자로 메모리 관리를 자동으로 해주는 기능입니다.",
+        "keywords": ["ARC", "Automatic Reference Counting", "메모리", "관리"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000004",
+        "category": "ios",
+        "question": "옵셔널(Optionals)은 무엇이며 왜 사용하나요?",
+        "sampleAnswer": "옵셔널은 값이 있을 수도, 없을 수도 있는 변수를 나타내며, 안전한 코드 작성을 위해 사용됩니다.",
+        "keywords": ["옵셔널", "nil", "안전", "Swift"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000005",
+        "category": "ios",
+        "question": "Swift의 프로토콜 지향 프로그래밍이란?",
+        "sampleAnswer": "프로토콜 지향 프로그래밍은 상속보다 프로토콜을 활용하여 유연하고 확장 가능한 구조를 만드는 방식입니다.",
+        "keywords": ["프로토콜", "상속", "확장", "지향"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000006",
+        "category": "ios",
+        "question": "SwiftUI의 주요 특징은 무엇인가요?",
+        "sampleAnswer": "SwiftUI는 선언형 문법을 사용하며, UI 상태를 바인딩하여 자동으로 갱신해주는 구조입니다.",
+        "keywords": ["SwiftUI", "선언형", "바인딩", "상태"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000007",
+        "category": "ios",
+        "question": "View와 ViewModel의 책임은 각각 무엇인가요?",
+        "sampleAnswer": "View는 UI를 담당하고, ViewModel은 상태 및 로직을 관리하여 View와 Model을 분리시켜줍니다.",
+        "keywords": ["View", "ViewModel", "UI", "로직", "상태"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000008",
+        "category": "ios",
+        "question": "Escaping Closure와 Non-Escaping Closure의 차이는?",
+        "sampleAnswer": "Escaping은 함수 실행 이후에도 호출될 수 있는 클로저, Non-Escaping은 함수 내부에서만 호출되는 클로저입니다.",
+        "keywords": ["Escaping", "Non-Escaping", "클로저", "함수"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000009",
+        "category": "ios",
+        "question": "Swift의 async/await는 어떻게 작동하나요?",
+        "sampleAnswer": "async/await는 비동기 코드를 동기처럼 작성할 수 있게 도와주는 Swift의 concurrency 기능입니다.",
+        "keywords": ["async", "await", "비동기", "동기", "concurrency"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000010",
+        "category": "ios",
+        "question": "Combine의 Publisher와 Subscriber의 역할은?",
+        "sampleAnswer": "Publisher는 데이터를 발행하고, Subscriber는 데이터를 수신하고 처리합니다.",
+        "keywords": ["Combine", "Publisher", "Subscriber", "데이터 흐름"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000011",
+        "category": "ios",
+        "question": "의존성 주입(Dependency Injection)이란?",
+        "sampleAnswer": "의존성 주입은 객체가 사용할 의존 객체를 외부에서 주입받는 설계 패턴입니다.",
+        "keywords": ["의존성 주입", "Dependency Injection", "객체", "설계"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000012",
+        "category": "ios",
+        "question": "NotificationCenter는 언제 사용하나요?",
+        "sampleAnswer": "NotificationCenter는 앱 내 컴포넌트 간 이벤트를 전달할 때 사용합니다.",
+        "keywords": ["NotificationCenter", "이벤트", "전달", "옵저버"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000013",
+        "category": "ios",
+        "question": "ViewController 생명주기 메서드의 순서를 설명해주세요.",
+        "sampleAnswer": "viewDidLoad → viewWillAppear → viewDidAppear → viewWillDisappear → viewDidDisappear 순으로 호출됩니다.",
+        "keywords": ["viewDidLoad", "viewWillAppear", "viewDidAppear", "viewWillDisappear", "viewDidDisappear"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000014",
+        "category": "ios",
+        "question": "GCD와 OperationQueue의 차이점은?",
+        "sampleAnswer": "GCD는 간단하고 가볍지만, OperationQueue는 더 많은 제어와 종속성 설정이 가능합니다.",
+        "keywords": ["GCD", "OperationQueue", "비동기", "스레드", "제어"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000015",
+        "category": "ios",
+        "question": "캡처 리스트 [weak self], [unowned self]의 차이점은?",
+        "sampleAnswer": "[weak self]는 옵셔널로 캡처되며, [unowned self]는 강제 언래핑되기 때문에 반드시 존재해야 합니다.",
+        "keywords": ["weak", "unowned", "캡처 리스트", "메모리 관리", "옵셔널"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000016",
+        "category": "ios",
+        "question": "Swift에서 메모리 누수(Memory Leak)를 방지하는 방법은?",
+        "sampleAnswer": "순환 참조를 weak 또는 unowned 키워드로 방지해야 합니다.",
+        "keywords": ["메모리 누수", "순환 참조", "weak", "unowned"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000017",
+        "category": "ios",
+        "question": "Codable 프로토콜의 역할은?",
+        "sampleAnswer": "Codable은 Encodable과 Decodable을 동시에 채택하여 JSON 인코딩/디코딩을 쉽게 처리합니다.",
+        "keywords": ["Codable", "Encodable", "Decodable", "JSON", "직렬화"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000018",
+        "category": "ios",
+        "question": "AppDelegate와 SceneDelegate의 차이점은?",
+        "sampleAnswer": "AppDelegate는 앱 전체 라이프사이클을, SceneDelegate는 UI 씬별 관리를 담당합니다.",
+        "keywords": ["AppDelegate", "SceneDelegate", "라이프사이클", "씬"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000019",
+        "category": "ios",
+        "question": "Swift에서 Protocol Extension을 사용하는 이유는?",
+        "sampleAnswer": "공통 구현을 통해 중복 코드를 줄이고, 프로토콜 기반 설계를 유연하게 만듭니다.",
+        "keywords": ["Protocol Extension", "중복 제거", "유연성", "공통 구현"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000020",
+        "category": "ios",
+        "question": "NotificationCenter 대신 사용할 수 있는 방법은?",
+        "sampleAnswer": "Combine의 Publisher-Subscriber 구조나 delegate, closure를 사용할 수 있습니다.",
+        "keywords": ["NotificationCenter", "Combine", "Publisher", "Delegate", "Closure"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000021",
+        "category": "ios",
+        "question": "SwiftUI에서 상태 관리를 위해 사용하는 속성 래퍼는?",
+        "sampleAnswer": "@State, @Binding, @ObservedObject, @EnvironmentObject 등이 있습니다.",
+        "keywords": ["@State", "@Binding", "@ObservedObject", "@EnvironmentObject", "상태 관리"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000022",
+        "category": "ios",
+        "question": "iOS에서 뷰 간 데이터 전달 방법에는 무엇이 있나요?",
+        "sampleAnswer": "Delegate, Closure, Notification, Combine, EnvironmentObject 등을 사용할 수 있습니다.",
+        "keywords": ["Delegate", "Closure", "Combine", "Notification", "EnvironmentObject"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000023",
+        "category": "ios",
+        "question": "Swift의 defer 키워드는 어떤 역할을 하나요?",
+        "sampleAnswer": "defer는 현재 코드 블록이 종료될 때 반드시 실행할 코드를 예약하는 데 사용됩니다.",
+        "keywords": ["defer", "종료 시 실행", "코드 블록", "예약"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000024",
+        "category": "ios",
+        "question": "SwiftUI에서 NavigationStack과 NavigationLink 차이점은?",
+        "sampleAnswer": "NavigationStack은 탐색 구조를 관리하고, NavigationLink는 실제 화면 전환을 트리거합니다.",
+        "keywords": ["NavigationStack", "NavigationLink", "화면 전환", "탐색"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000025",
+        "category": "ios",
+        "question": "Swift에서 throws와 try, catch는 어떤 관계인가요?",
+        "sampleAnswer": "throws는 오류 발생 가능성을 나타내고, try는 오류를 처리하며, catch는 오류를 잡습니다.",
+        "keywords": ["throws", "try", "catch", "오류 처리", "예외"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000026",
+        "category": "ios",
+        "question": "Swift의 property wrapper란 무엇인가요?",
+        "sampleAnswer": "property wrapper는 속성의 동작을 캡슐화해 재사용성을 높이는 기능입니다.",
+        "keywords": ["property wrapper", "속성", "캡슐화", "재사용성"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000027",
+        "category": "ios",
+        "question": "SwiftUI에서 @ObservedObject와 @StateObject 차이는?",
+        "sampleAnswer": "@ObservedObject는 외부 객체 관찰, @StateObject는 뷰 내부에서 객체를 생성하고 관리합니다.",
+        "keywords": ["@ObservedObject", "@StateObject", "상태 관리", "객체 관찰"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000028",
+        "category": "ios",
+        "question": "iOS 앱에서 Background Task를 처리하는 방법은?",
+        "sampleAnswer": "Background Task Framework나 URLSession background를 사용해 백그라운드 작업을 수행할 수 있습니다.",
+        "keywords": ["Background Task", "백그라운드", "URLSession", "작업"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000029",
+        "category": "ios",
+        "question": "Swift의 타입 캐스팅(as?, as!, is)의 차이는?",
+        "sampleAnswer": "as?는 옵셔널 변환, as!는 강제 변환, is는 타입 확인을 합니다.",
+        "keywords": ["as?", "as!", "is", "타입 캐스팅", "Swift"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000030",
+        "category": "ios",
+        "question": "Combine에서 AnyPublisher의 역할은?",
+        "sampleAnswer": "AnyPublisher는 다양한 Publisher를 하나로 추상화하여 타입 종속성을 줄입니다.",
+        "keywords": ["Combine", "AnyPublisher", "타입 추상화", "Publisher"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000031",
+        "category": "ios",
+        "question": "iOS 앱의 LaunchScreen은 어떻게 작동하나요?",
+        "sampleAnswer": "LaunchScreen은 앱 로딩 시 사용자에게 초기 화면을 빠르게 보여주는 역할을 합니다.",
+        "keywords": ["LaunchScreen", "초기 화면", "로딩", "iOS"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000032",
+        "category": "ios",
+        "question": "Swift Concurrency의 TaskGroup은 무엇인가요?",
+        "sampleAnswer": "TaskGroup은 여러 비동기 작업을 그룹화하여 병렬로 실행하고 결과를 수집하는 데 사용됩니다.",
+        "keywords": ["TaskGroup", "비동기", "병렬 실행", "Swift Concurrency"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000033",
+        "category": "ios",
+        "question": "Swift에서 Result 타입의 용도는?",
+        "sampleAnswer": "Result는 성공 또는 실패 결과를 하나의 타입으로 표현해 에러 처리를 명확하게 합니다.",
+        "keywords": ["Result", "성공", "실패", "에러 처리", "Swift"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000034",
+        "category": "ios",
+        "question": "SwiftUI에서 LazyVStack과 VStack의 차이는?",
+        "sampleAnswer": "LazyVStack은 뷰가 필요할 때만 렌더링하여 성능을 향상시킵니다.",
+        "keywords": ["LazyVStack", "VStack", "지연 로딩", "렌더링", "성능"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000035",
+        "category": "ios",
+        "question": "URLSession의 역할은 무엇인가요?",
+        "sampleAnswer": "URLSession은 네트워크 요청을 처리하기 위한 API로, 데이터를 주고받는 데 사용됩니다.",
+        "keywords": ["URLSession", "네트워크", "요청", "응답", "데이터"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000036",
+        "category": "ios",
+        "question": "Swift의 defer 문은 언제 유용하게 사용되나요?",
+        "sampleAnswer": "자원 정리, 파일 닫기 등 특정 블록 종료 시점에 실행할 코드에 유용합니다.",
+        "keywords": ["defer", "자원 정리", "파일 닫기", "종료 시점"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000037",
+        "category": "ios",
+        "question": "iOS에서 UserDefaults는 언제 사용하나요?",
+        "sampleAnswer": "간단한 설정값이나 사용자 기본 정보를 저장할 때 사용됩니다.",
+        "keywords": ["UserDefaults", "설정", "저장", "사용자 정보"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000038",
+        "category": "ios",
+        "question": "SwiftUI에서 @Environment는 어떤 역할을 하나요?",
+        "sampleAnswer": "@Environment는 상위 뷰에서 전달된 전역 값을 하위 뷰에서 사용할 수 있게 합니다.",
+        "keywords": ["@Environment", "전역 값", "뷰 간 공유", "SwiftUI"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000039",
+        "category": "ios",
+        "question": "iOS에서 Keychain은 언제 사용되나요?",
+        "sampleAnswer": "민감한 데이터를 안전하게 저장할 때 사용되며, 암호화가 기본 제공됩니다.",
+        "keywords": ["Keychain", "보안", "암호화", "민감 정보"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000040",
+        "category": "ios",
+        "question": "앱에서 다크모드를 지원하기 위한 방법은?",
+        "sampleAnswer": "시스템 색상 사용, ColorScheme 환경값, .preferredColorScheme 등을 활용합니다.",
+        "keywords": ["다크모드", "ColorScheme", "지원", "preferredColorScheme"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000041",
+        "category": "ios",
+        "question": "iOS 앱에서 푸시 알림을 설정하려면?",
+        "sampleAnswer": "APNs 설정, 권한 요청, Firebase 또는 UNUserNotificationCenter를 사용해 구현합니다.",
+        "keywords": ["푸시 알림", "APNs", "Firebase", "권한", "UNUserNotificationCenter"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000042",
+        "category": "ios",
+        "question": "Swift에서 static과 class의 차이는?",
+        "sampleAnswer": "static은 재정의 불가능한 정적 속성, class는 서브클래스에서 재정의 가능한 속성에 사용됩니다.",
+        "keywords": ["static", "class", "재정의", "정적 속성", "Swift"]
+    },
+]

@@ -1,0 +1,296 @@
+[
+    {
+        "id": "11111111-1111-1111-1111-000000000001",
+        "category": "frontend",
+        "question": "React에서 상태 관리를 어떻게 하나요?",
+        "sampleAnswer": "useState, useReducer, Context API를 이용해 상태를 관리할 수 있습니다.",
+        "keywords": ["useState", "useReducer", "Context API", "상태 관리"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000002",
+        "category": "frontend",
+        "question": "브라우저의 렌더링 과정에 대해 설명해주세요.",
+        "sampleAnswer": "HTML 파싱 → DOM 트리 생성 → CSS 파싱 → 렌더 트리 → 레이아웃 → 페인트 → 컴포지팅",
+        "keywords": ["DOM", "CSS", "렌더 트리", "레이아웃", "페인트", "컴포지팅"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000003",
+        "category": "frontend",
+        "question": "CSR과 SSR의 차이는 무엇인가요?",
+        "sampleAnswer": "CSR은 클라이언트 측 렌더링, SSR은 서버 측 렌더링으로 초기 로딩 방식이 다릅니다.",
+        "keywords": ["CSR", "SSR", "클라이언트", "서버", "렌더링"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000004",
+        "category": "frontend",
+        "question": "이벤트 버블링과 캡처링의 차이는?",
+        "sampleAnswer": "버블링은 하위 요소부터 상위로, 캡처링은 상위 요소부터 하위로 이벤트가 전달됩니다.",
+        "keywords": ["이벤트", "버블링", "캡처링", "전파", "DOM"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000005",
+        "category": "frontend",
+        "question": "React의 Virtual DOM은 무엇인가요?",
+        "sampleAnswer": "Virtual DOM은 실제 DOM의 가벼운 복사본으로, 효율적인 업데이트를 돕습니다.",
+        "keywords": ["React", "Virtual DOM", "렌더링", "성능"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000006",
+        "category": "frontend",
+        "question": "프론트엔드에서 CORS는 무엇이고 왜 필요한가요?",
+        "sampleAnswer": "CORS는 다른 출처의 자원 접근을 제어하는 브라우저의 보안 정책입니다.",
+        "keywords": ["CORS", "Cross-Origin", "보안", "브라우저", "정책"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000007",
+        "category": "frontend",
+        "question": "웹 접근성이란 무엇이며 왜 중요한가요?",
+        "sampleAnswer": "웹 접근성은 장애 유무와 관계없이 모든 사용자가 웹 콘텐츠에 접근할 수 있도록 하는 개념입니다.",
+        "keywords": ["접근성", "웹 접근성", "장애인", "사용자", "표준"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000008",
+        "category": "frontend",
+        "question": "React의 useEffect 훅은 어떤 역할을 하나요?",
+        "sampleAnswer": "useEffect는 컴포넌트가 마운트되거나 업데이트될 때 부수 효과를 수행하는 훅입니다.",
+        "keywords": ["React", "useEffect", "훅", "마운트", "업데이트"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000009",
+        "category": "frontend",
+        "question": "SPA란 무엇인가요?",
+        "sampleAnswer": "SPA는 Single Page Application의 약자로, 하나의 페이지로 구성된 웹 애플리케이션입니다.",
+        "keywords": ["SPA", "Single Page Application", "라우팅", "페이지 전환"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000010",
+        "category": "frontend",
+        "question": "웹 성능 최적화를 위한 방법은?",
+        "sampleAnswer": "이미지 압축, 코드 스플리팅, 캐싱 전략 등으로 성능을 향상시킬 수 있습니다.",
+        "keywords": ["성능", "최적화", "이미지 압축", "코드 스플리팅", "캐싱"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000011",
+        "category": "frontend",
+        "question": "Typescript의 장점은?",
+        "sampleAnswer": "정적 타입 검사와 자동 완성, 유지보수성을 향상시켜줍니다.",
+        "keywords": ["Typescript", "정적 타입", "자동 완성", "유지보수"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000012",
+        "category": "frontend",
+        "question": "Semantic HTML이란 무엇인가요?",
+        "sampleAnswer": "의미 있는 태그를 사용해 문서 구조를 명확히 표현하는 HTML입니다.",
+        "keywords": ["HTML", "Semantic", "태그", "의미", "구조"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000013",
+        "category": "frontend",
+        "question": "자바스크립트의 이벤트 루프(Event Loop)는 무엇인가요?",
+        "sampleAnswer": "이벤트 루프는 콜 스택과 태스크 큐를 관리하여 비동기 처리를 가능하게 합니다.",
+        "keywords": ["이벤트 루프", "콜 스택", "태스크 큐", "비동기"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000014",
+        "category": "frontend",
+        "question": "자바스크립트의 클로저(Closure)는 무엇인가요?",
+        "sampleAnswer": "클로저는 함수가 선언될 당시의 스코프를 기억하는 함수입니다.",
+        "keywords": ["클로저", "스코프", "함수", "기억"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000015",
+        "category": "frontend",
+        "question": "Debounce와 Throttle의 차이는?",
+        "sampleAnswer": "Debounce는 마지막 호출만 실행하고, Throttle은 일정 간격으로 실행됩니다.",
+        "keywords": ["Debounce", "Throttle", "이벤트", "성능 최적화"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000016",
+        "category": "frontend",
+        "question": "React에서 key 속성은 왜 필요한가요?",
+        "sampleAnswer": "key는 컴포넌트의 고유성을 보장해 Virtual DOM 비교 시 효율을 높입니다.",
+        "keywords": ["React", "key", "Virtual DOM", "비교", "성능"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000017",
+        "category": "frontend",
+        "question": "React의 상태 끌어올리기(Lifting State Up)란?",
+        "sampleAnswer": "공통 조상 컴포넌트로 상태를 이동시켜 하위 컴포넌트가 공유할 수 있게 합니다.",
+        "keywords": ["React", "상태", "공유", "끌어올리기", "컴포넌트"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000018",
+        "category": "frontend",
+        "question": "웹에서 lazy loading이란?",
+        "sampleAnswer": "lazy loading은 필요할 때만 리소스를 로딩하여 초기 로딩 속도를 개선합니다.",
+        "keywords": ["lazy loading", "성능", "이미지", "최적화"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000019",
+        "category": "frontend",
+        "question": "서비스 워커(Service Worker)는 무엇인가요?",
+        "sampleAnswer": "브라우저 백그라운드에서 동작하며, 오프라인 캐시 및 푸시 알림 등을 지원합니다.",
+        "keywords": ["Service Worker", "오프라인", "캐시", "푸시 알림"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000020",
+        "category": "frontend",
+        "question": "Flexbox의 주요 속성은 무엇인가요?",
+        "sampleAnswer": "flex-direction, justify-content, align-items 등이 있으며 레이아웃 정렬에 사용됩니다.",
+        "keywords": ["Flexbox", "레이아웃", "정렬", "CSS"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000021",
+        "category": "frontend",
+        "question": "CSS Grid와 Flexbox의 차이는?",
+        "sampleAnswer": "Grid는 2차원 레이아웃, Flexbox는 1차원 정렬에 적합합니다.",
+        "keywords": ["CSS", "Grid", "Flexbox", "레이아웃", "차이"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000022",
+        "category": "frontend",
+        "question": "웹팩(Webpack)이란?",
+        "sampleAnswer": "Webpack은 모듈 번들러로 여러 파일을 하나로 묶고 최적화합니다.",
+        "keywords": ["Webpack", "모듈", "번들링", "빌드", "최적화"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000023",
+        "category": "frontend",
+        "question": "PWA(Progressive Web App)란 무엇인가요?",
+        "sampleAnswer": "PWA는 웹 앱을 네이티브 앱처럼 사용할 수 있게 해주는 기술로, 오프라인 동작과 설치가 가능합니다.",
+        "keywords": ["PWA", "Progressive Web App", "오프라인", "설치", "웹앱"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000024",
+        "category": "frontend",
+        "question": "CSR(Client Side Rendering)의 장단점은?",
+        "sampleAnswer": "CSR은 빠른 인터랙션을 제공하지만, 초기 로딩이 느릴 수 있습니다.",
+        "keywords": ["CSR", "클라이언트 사이드 렌더링", "초기 로딩", "인터랙션"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000025",
+        "category": "frontend",
+        "question": "BEM 방법론이란 무엇인가요?",
+        "sampleAnswer": "BEM(Block Element Modifier)은 CSS 클래스 이름을 체계적으로 짓기 위한 방법론입니다.",
+        "keywords": ["BEM", "CSS", "네이밍", "방법론", "구조화"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000026",
+        "category": "frontend",
+        "question": "Next.js의 주요 특징은?",
+        "sampleAnswer": "Next.js는 React 기반 프레임워크로, SSR과 SSG를 지원하여 SEO에 유리합니다.",
+        "keywords": ["Next.js", "React", "SSR", "SSG", "SEO"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000027",
+        "category": "frontend",
+        "question": "Sass와 SCSS의 차이는?",
+        "sampleAnswer": "Sass는 들여쓰기 문법을 사용하고, SCSS는 CSS와 유사한 중괄호 문법을 사용합니다.",
+        "keywords": ["Sass", "SCSS", "CSS 전처리기", "문법"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000028",
+        "category": "frontend",
+        "question": "크리티컬 렌더링 패스란?",
+        "sampleAnswer": "크리티컬 렌더링 패스는 브라우저가 화면을 그리기까지 거치는 필수 과정을 말합니다.",
+        "keywords": ["크리티컬 렌더링 패스", "브라우저", "렌더링", "최적화"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000029",
+        "category": "frontend",
+        "question": "브라우저의 repaint와 reflow 차이는?",
+        "sampleAnswer": "Reflow는 레이아웃 계산을 다시 하는 것이고, Repaint는 화면을 다시 그리는 작업입니다.",
+        "keywords": ["Reflow", "Repaint", "브라우저", "레이아웃", "성능"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000030",
+        "category": "frontend",
+        "question": "프론트엔드 테스트 종류에는 무엇이 있나요?",
+        "sampleAnswer": "유닛 테스트, 통합 테스트, E2E 테스트가 있습니다.",
+        "keywords": ["테스트", "유닛 테스트", "통합 테스트", "E2E 테스트"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000031",
+        "category": "frontend",
+        "question": "웹 표준과 웹 접근성의 차이는?",
+        "sampleAnswer": "웹 표준은 기술 규약을 따르는 것이고, 웹 접근성은 다양한 사용자가 접근할 수 있도록 하는 것입니다.",
+        "keywords": ["웹 표준", "웹 접근성", "규약", "사용자 접근성"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000032",
+        "category": "frontend",
+        "question": "React의 Context API란?",
+        "sampleAnswer": "Context API는 컴포넌트 트리 전체에 데이터를 전달할 수 있는 방법입니다.",
+        "keywords": ["React", "Context API", "데이터 전달", "컴포넌트 트리"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000033",
+        "category": "frontend",
+        "question": "CSR과 SSR에서 SEO 최적화는 어떻게 다르게 접근하나요?",
+        "sampleAnswer": "CSR은 클라이언트에서 렌더링되어 SEO가 불리하고, SSR은 서버에서 HTML을 반환해 SEO에 유리합니다.",
+        "keywords": ["CSR", "SSR", "SEO", "렌더링", "검색엔진"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000034",
+        "category": "frontend",
+        "question": "프론트엔드 성능 측정 도구에는 무엇이 있나요?",
+        "sampleAnswer": "Lighthouse, Web Vitals, Chrome DevTools, PageSpeed Insights 등이 있습니다.",
+        "keywords": ["성능 측정", "Lighthouse", "Web Vitals", "PageSpeed", "DevTools"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000035",
+        "category": "frontend",
+        "question": "React에서 memo와 useMemo의 차이는?",
+        "sampleAnswer": "memo는 컴포넌트를 메모이제이션하고, useMemo는 값의 계산 결과를 캐싱합니다.",
+        "keywords": ["memo", "useMemo", "React", "성능", "메모이제이션"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000036",
+        "category": "frontend",
+        "question": "프론트엔드에서 보안 취약점에는 무엇이 있나요?",
+        "sampleAnswer": "XSS, CSRF, Clickjacking 등 브라우저 기반 취약점이 있습니다.",
+        "keywords": ["보안", "XSS", "CSRF", "Clickjacking", "취약점"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000037",
+        "category": "frontend",
+        "question": "웹소켓(WebSocket)의 특징은 무엇인가요?",
+        "sampleAnswer": "웹소켓은 서버와 클라이언트 간 실시간 양방향 통신을 지원합니다.",
+        "keywords": ["웹소켓", "WebSocket", "실시간", "양방향", "통신"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000038",
+        "category": "frontend",
+        "question": "웹 컴포넌트(Web Components)란?",
+        "sampleAnswer": "웹 컴포넌트는 캡슐화된 사용자 정의 태그를 만드는 기술입니다.",
+        "keywords": ["Web Components", "캡슐화", "사용자 정의 태그", "재사용"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000039",
+        "category": "frontend",
+        "question": "프론트엔드에서 상태 관리 라이브러리는 어떤 것이 있나요?",
+        "sampleAnswer": "Redux, Zustand, Recoil, MobX 등이 있습니다.",
+        "keywords": ["Redux", "Zustand", "Recoil", "MobX", "상태 관리"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000040",
+        "category": "frontend",
+        "question": "정적 사이트 생성(SSG)은 어떤 상황에 적합한가요?",
+        "sampleAnswer": "자주 변경되지 않는 콘텐츠를 빠르게 제공할 때 적합합니다.",
+        "keywords": ["SSG", "정적 사이트", "성능", "콘텐츠", "빌드"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000041",
+        "category": "frontend",
+        "question": "웹앱에서 로딩 스켈레톤(Skeleton Screen)의 목적은?",
+        "sampleAnswer": "스켈레톤은 콘텐츠 로딩 대기 시간을 줄이기 위한 시각적 피드백입니다.",
+        "keywords": ["스켈레톤", "로딩", "UX", "시각적 피드백", "대기 시간"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000042",
+        "category": "frontend",
+        "question": "IntersectionObserver는 언제 사용하나요?",
+        "sampleAnswer": "무한 스크롤, Lazy Load 등 요소의 화면 진입 여부를 감지할 때 사용합니다.",
+        "keywords": ["IntersectionObserver", "무한 스크롤", "Lazy Load", "화면 감지"]
+    },
+]

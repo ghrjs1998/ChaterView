@@ -1,0 +1,296 @@
+[
+    {
+        "id": "33333333-3333-3333-3333-000000000001",
+        "category": "android",
+        "question": "Activity와 Fragment의 차이점은?",
+        "sampleAnswer": "Activity는 앱의 화면 단위이고, Fragment는 Activity 내에서 UI 조각을 나누기 위한 단위입니다.",
+        "keywords": ["Activity", "Fragment", "화면", "UI", "조각"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000002",
+        "category": "android",
+        "question": "Android에서 ViewModel의 역할은?",
+        "sampleAnswer": "UI 관련 데이터를 저장하고, 화면 회전에도 살아남아 상태를 유지합니다.",
+        "keywords": ["ViewModel", "데이터", "저장", "화면 회전", "상태 유지"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000003",
+        "category": "android",
+        "question": "LiveData란 무엇인가요?",
+        "sampleAnswer": "LiveData는 생명주기를 고려한 데이터 홀더 클래스로, UI와 안전하게 데이터 바인딩할 수 있습니다.",
+        "keywords": ["LiveData", "생명주기", "UI", "데이터 바인딩"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000004",
+        "category": "android",
+        "question": "Jetpack Compose의 주요 특징은?",
+        "sampleAnswer": "Jetpack Compose는 선언형 UI 도구로, XML 없이 UI를 작성할 수 있게 해줍니다.",
+        "keywords": ["Jetpack Compose", "선언형", "UI", "XML"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000005",
+        "category": "android",
+        "question": "DataBinding과 ViewBinding의 차이는?",
+        "sampleAnswer": "DataBinding은 양방향 바인딩을 지원하고, ViewBinding은 안전한 View 참조를 제공합니다.",
+        "keywords": ["DataBinding", "ViewBinding", "양방향", "안전"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000006",
+        "category": "android",
+        "question": "Room 데이터베이스란?",
+        "sampleAnswer": "Room은 SQLite를 추상화한 ORM으로, 코드로 간편하게 DB를 다룰 수 있게 합니다.",
+        "keywords": ["Room", "SQLite", "ORM", "데이터베이스"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000007",
+        "category": "android",
+        "question": "Intent와 Intent Filter의 차이는?",
+        "sampleAnswer": "Intent는 컴포넌트 간 통신, Filter는 어떤 인텐트를 처리할 수 있는지 정의합니다.",
+        "keywords": ["Intent", "Intent Filter", "컴포넌트", "통신"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000008",
+        "category": "android",
+        "question": "Service와 BroadcastReceiver의 차이는?",
+        "sampleAnswer": "Service는 백그라운드 작업을 수행, BroadcastReceiver는 시스템 이벤트를 수신합니다.",
+        "keywords": ["Service", "BroadcastReceiver", "백그라운드", "이벤트"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000009",
+        "category": "android",
+        "question": "Android에서 Coroutine을 사용하는 이유는?",
+        "sampleAnswer": "경량 스레드로 효율적 비동기 처리를 도와 UI 블로킹을 방지합니다.",
+        "keywords": ["Coroutine", "비동기", "UI", "블로킹", "경량 스레드"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000010",
+        "category": "android",
+        "question": "ViewModel과 Repository 패턴의 관계는?",
+        "sampleAnswer": "ViewModel은 UI 상태 관리, Repository는 데이터 소스를 추상화해 ViewModel과 분리합니다.",
+        "keywords": ["ViewModel", "Repository", "패턴", "데이터", "분리"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000011",
+        "category": "android",
+        "question": "Hilt란 무엇인가요?",
+        "sampleAnswer": "Hilt는 Android에서 DI를 쉽게 구성할 수 있도록 도와주는 라이브러리입니다.",
+        "keywords": ["Hilt", "DI", "의존성 주입", "Android", "라이브러리"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000012",
+        "category": "android",
+        "question": "Fragment에서 생명주기 관리 시 주의할 점은?",
+        "sampleAnswer": "Fragment는 Activity에 종속되며, 뷰 생명주기와 다르므로 onViewCreated 등을 적절히 사용해야 합니다.",
+        "keywords": ["Fragment", "생명주기", "onViewCreated", "Activity 종속"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000013",
+        "category": "android",
+        "question": "Android에서 ANR이 발생하는 원인은?",
+        "sampleAnswer": "MainThread에서 오랜 시간 작업을 수행하면 ANR(Application Not Responding)이 발생할 수 있습니다.",
+        "keywords": ["ANR", "MainThread", "오래된 작업", "Application Not Responding"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000014",
+        "category": "android",
+        "question": "ContentProvider는 언제 사용하나요?",
+        "sampleAnswer": "ContentProvider는 앱 간 데이터 공유를 위해 사용되며, 표준화된 인터페이스를 제공합니다.",
+        "keywords": ["ContentProvider", "데이터 공유", "앱 간 통신", "인터페이스"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000015",
+        "category": "android",
+        "question": "Parcelable과 Serializable의 차이는?",
+        "sampleAnswer": "Parcelable은 Android 전용으로 성능이 더 좋으며, Serializable은 Java 표준 직렬화 방식입니다.",
+        "keywords": ["Parcelable", "Serializable", "직렬화", "Android", "Java"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000016",
+        "category": "android",
+        "question": "Gradle이란 무엇인가요?",
+        "sampleAnswer": "Gradle은 Android 빌드를 자동화하는 도구로, 의존성 관리와 빌드 설정을 담당합니다.",
+        "keywords": ["Gradle", "빌드 도구", "의존성", "자동화"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000017",
+        "category": "android",
+        "question": "ConstraintLayout의 장점은?",
+        "sampleAnswer": "복잡한 UI를 계층 없이 평면적으로 구성할 수 있어 성능과 가독성이 향상됩니다.",
+        "keywords": ["ConstraintLayout", "성능", "레이아웃", "평면 구성"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000018",
+        "category": "android",
+        "question": "Application 클래스의 용도는?",
+        "sampleAnswer": "앱 전체 생명주기를 통제하며, 전역 상태나 초기화를 관리하는 데 사용됩니다.",
+        "keywords": ["Application 클래스", "전역 상태", "초기화", "생명주기"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000019",
+        "category": "android",
+        "question": "Android 앱에서 보안적으로 주의할 점은?",
+        "sampleAnswer": "암호화, ProGuard 설정, WebView 사용 시 도메인 화이트리스트 등을 주의해야 합니다.",
+        "keywords": ["보안", "암호화", "ProGuard", "WebView", "화이트리스트"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000020",
+        "category": "android",
+        "question": "ViewModel의 생명주기는 어떻게 되나요?",
+        "sampleAnswer": "ViewModel은 Activity나 Fragment가 종료될 때까지 데이터를 유지하며, 화면 회전에도 유지됩니다.",
+        "keywords": ["ViewModel", "생명주기", "화면 회전", "데이터 유지"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000021",
+        "category": "android",
+        "question": "AndroidManifest.xml의 역할은?",
+        "sampleAnswer": "앱의 구성 요소, 권한, 인텐트 필터 등을 정의하는 Android 앱의 설정 파일입니다.",
+        "keywords": ["AndroidManifest", "구성 요소", "권한", "설정 파일"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000022",
+        "category": "android",
+        "question": "Navigation Component의 장점은?",
+        "sampleAnswer": "Jetpack의 Navigation Component는 Fragment 간 이동을 간편하게 관리해줍니다.",
+        "keywords": ["Navigation", "Fragment", "Jetpack", "Component", "이동"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000023",
+        "category": "android",
+        "question": "ViewBinding을 사용하는 이유는 무엇인가요?",
+        "sampleAnswer": "ViewBinding은 NullPointerException을 방지하고, 타입 세이프한 코드 작성을 돕습니다.",
+        "keywords": ["ViewBinding", "NullPointerException", "타입 세이프", "UI"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000024",
+        "category": "android",
+        "question": "DataStore는 무엇이며 언제 사용하나요?",
+        "sampleAnswer": "DataStore는 SharedPreferences를 대체하는 비동기 데이터 저장 솔루션입니다.",
+        "keywords": ["DataStore", "SharedPreferences", "비동기", "데이터 저장"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000025",
+        "category": "android",
+        "question": "Android에서 WorkManager는 어떤 역할을 하나요?",
+        "sampleAnswer": "WorkManager는 조건 기반 백그라운드 작업을 안전하게 예약하고 실행할 수 있도록 지원합니다.",
+        "keywords": ["WorkManager", "백그라운드 작업", "예약", "조건 기반"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000026",
+        "category": "android",
+        "question": "Jetpack 라이브러리의 특징은 무엇인가요?",
+        "sampleAnswer": "Jetpack은 모듈화된 라이브러리 집합으로 앱 개발을 쉽고 빠르게 돕습니다.",
+        "keywords": ["Jetpack", "모듈화", "라이브러리", "앱 개발"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000027",
+        "category": "android",
+        "question": "RecyclerView와 ListView의 차이는 무엇인가요?",
+        "sampleAnswer": "RecyclerView는 ViewHolder 패턴을 적용해 성능을 개선하고, 다양한 레이아웃 매니저를 지원합니다.",
+        "keywords": ["RecyclerView", "ListView", "ViewHolder", "성능", "레이아웃"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000028",
+        "category": "android",
+        "question": "ViewModelScope란 무엇인가요?",
+        "sampleAnswer": "ViewModelScope는 ViewModel의 생명주기를 따르는 CoroutineScope입니다.",
+        "keywords": ["ViewModelScope", "CoroutineScope", "생명주기", "ViewModel"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000029",
+        "category": "android",
+        "question": "Flow와 LiveData의 차이는?",
+        "sampleAnswer": "Flow는 코루틴 기반 스트림 API이고, LiveData는 생명주기 인식형 데이터 홀더입니다.",
+        "keywords": ["Flow", "LiveData", "코루틴", "스트림", "생명주기"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000030",
+        "category": "android",
+        "question": "MVVM 아키텍처에서 ViewModel의 역할은?",
+        "sampleAnswer": "ViewModel은 UI 상태를 관리하고, 모델 데이터를 가공해 View에 전달합니다.",
+        "keywords": ["MVVM", "ViewModel", "UI 상태", "모델 데이터"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000031",
+        "category": "android",
+        "question": "Retrofit은 무엇이고 왜 사용하나요?",
+        "sampleAnswer": "Retrofit은 타입 세이프한 HTTP 클라이언트 라이브러리로, 네트워크 통신을 쉽게 만듭니다.",
+        "keywords": ["Retrofit", "HTTP 클라이언트", "네트워크 통신", "타입 세이프"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000032",
+        "category": "android",
+        "question": "Glide와 Picasso의 차이는?",
+        "sampleAnswer": "Glide는 이미지 로딩 및 캐싱에 최적화되어 있으며, Picasso는 사용이 간편한 이미지 라이브러리입니다.",
+        "keywords": ["Glide", "Picasso", "이미지 로딩", "캐싱", "라이브러리"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000033",
+        "category": "android",
+        "question": "Android에서 ViewModel의 생명주기는 어떻게 되나요?",
+        "sampleAnswer": "ViewModel은 Activity나 Fragment의 생명주기를 따르며, 화면 회전과 같은 구성 변경에도 데이터를 유지합니다.",
+        "keywords": ["ViewModel", "생명주기", "구성 변경", "데이터 유지", "UI 상태"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000034",
+        "category": "android",
+        "question": "AndroidManifest.xml의 역할은?",
+        "sampleAnswer": "AndroidManifest.xml은 앱의 구성 요소, 권한, 인텐트 필터 등을 정의하는 Android 앱의 설정 파일입니다.",
+        "keywords": ["AndroidManifest", "구성 요소", "권한", "설정 파일", "인텐트 필터"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000035",
+        "category": "android",
+        "question": "Navigation Component의 장점은?",
+        "sampleAnswer": "Jetpack의 Navigation Component는 Fragment 간 이동을 간편하게 관리해줍니다.",
+        "keywords": ["Navigation", "Fragment", "Jetpack", "Component", "이동"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000036",
+        "category": "android",
+        "question": "ViewBinding을 사용하는 이유는 무엇인가요?",
+        "sampleAnswer": "ViewBinding은 NullPointerException을 방지하고, 타입 세이프한 코드 작성을 돕습니다.",
+        "keywords": ["ViewBinding", "NullPointerException", "타입 세이프", "UI"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000037",
+        "category": "android",
+        "question": "DataStore는 무엇이며 언제 사용하나요?",
+        "sampleAnswer": "DataStore는 SharedPreferences를 대체하는 비동기 데이터 저장 솔루션입니다.",
+        "keywords": ["DataStore", "SharedPreferences", "비동기", "데이터 저장"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000038",
+        "category": "android",
+        "question": "Android에서 WorkManager는 어떤 역할을 하나요?",
+        "sampleAnswer": "WorkManager는 조건 기반 백그라운드 작업을 안전하게 예약하고 실행할 수 있도록 지원합니다.",
+        "keywords": ["WorkManager", "백그라운드 작업", "예약", "조건 기반"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000039",
+        "category": "android",
+        "question": "Jetpack 라이브러리의 특징은 무엇인가요?",
+        "sampleAnswer": "Jetpack은 모듈화된 라이브러리 집합으로 앱 개발을 쉽고 빠르게 돕습니다.",
+        "keywords": ["Jetpack", "모듈화", "라이브러리", "앱 개발"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000040",
+        "category": "android",
+        "question": "RecyclerView와 ListView의 차이는 무엇인가요?",
+        "sampleAnswer": "RecyclerView는 ViewHolder 패턴을 적용해 성능을 개선하고, 다양한 레이아웃 매니저를 지원합니다.",
+        "keywords": ["RecyclerView", "ListView", "ViewHolder", "성능", "레이아웃"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000041",
+        "category": "android",
+        "question": "ViewModelScope란 무엇인가요?",
+        "sampleAnswer": "ViewModelScope는 ViewModel의 생명주기를 따르는 CoroutineScope입니다.",
+        "keywords": ["ViewModelScope", "CoroutineScope", "생명주기", "ViewModel"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000042",
+        "category": "android",
+        "question": "Flow와 LiveData의 차이는?",
+        "sampleAnswer": "Flow는 코루틴 기반 스트림 API이고, LiveData는 생명주기 인식형 데이터 홀더입니다.",
+        "keywords": ["Flow", "LiveData", "코루틴", "스트림", "생명주기"]
+    },
+]
