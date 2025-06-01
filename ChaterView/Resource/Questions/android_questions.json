@@ -293,4 +293,75 @@
         "sampleAnswer": "Flow는 코루틴 기반 스트림 API이고, LiveData는 생명주기 인식형 데이터 홀더입니다.",
         "keywords": ["Flow", "LiveData", "코루틴", "스트림", "생명주기"]
     },
+    {
+        "id": "33333333-3333-3333-3333-000000000043",
+        "category": "android",
+        "question": "Android에서 ProGuard의 역할은?",
+        "sampleAnswer": "ProGuard는 코드 난독화, 최적화, 축소를 통해 보안성과 앱 용량을 개선합니다.",
+        "keywords": ["ProGuard", "난독화", "보안", "최적화", "축소"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000044",
+        "category": "android",
+        "question": "Activity 생명주기에서 onSaveInstanceState의 역할은?",
+        "sampleAnswer": "onSaveInstanceState는 일시적으로 중단될 때 상태를 저장하는 데 사용됩니다.",
+        "keywords": ["Activity", "생명주기", "onSaveInstanceState", "상태 저장"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000045",
+        "category": "android",
+        "question": "Handler와 Looper의 관계는?",
+        "sampleAnswer": "Handler는 메시지를 처리하고, Looper는 메시지 큐를 돌면서 이를 분배합니다.",
+        "keywords": ["Handler", "Looper", "메시지 큐", "스레드", "처리"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000046",
+        "category": "android",
+        "question": "Android에서 앱 크래시 로그를 수집하는 방법은?",
+        "sampleAnswer": "Firebase Crashlytics, Sentry 등 라이브러리를 통해 실시간 로그 수집이 가능합니다.",
+        "keywords": ["Crash", "로그", "Crashlytics", "Sentry", "에러 수집"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000047",
+        "category": "android",
+        "question": "Android에서 다크모드를 적용하는 방법은?",
+        "sampleAnswer": "리소스 폴더에 night 버전을 정의하거나 AppCompatDelegate를 사용합니다.",
+        "keywords": ["다크모드", "night", "리소스", "AppCompatDelegate"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000048",
+        "category": "android",
+        "question": "Android 앱 최적화를 위한 전략은?",
+        "sampleAnswer": "불필요한 리소스 제거, Lazy 로딩, 메모리 관리, 백그라운드 작업 최적화 등이 있습니다.",
+        "keywords": ["최적화", "리소스", "Lazy 로딩", "메모리", "백그라운드"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000049",
+        "category": "android",
+        "question": "Android에서 Foreground Service란?",
+        "sampleAnswer": "Foreground Service는 사용자 인지 하에 백그라운드 작업을 지속적으로 실행합니다.",
+        "keywords": ["Foreground Service", "백그라운드", "지속", "알림"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000050",
+        "category": "android",
+        "question": "MotionLayout은 언제 사용하나요?",
+        "sampleAnswer": "복잡한 애니메이션 전환을 제어할 때 사용되며 ConstraintLayout 기반입니다.",
+        "keywords": ["MotionLayout", "애니메이션", "전환", "ConstraintLayout"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000051",
+        "category": "android",
+        "question": "Android에서 ViewModelFactory는 왜 필요한가요?",
+        "sampleAnswer": "ViewModel에 파라미터를 전달할 때 ViewModelFactory가 필요합니다.",
+        "keywords": ["ViewModelFactory", "ViewModel", "파라미터", "생성"]
+    },
+    {
+        "id": "33333333-3333-3333-3333-000000000052",
+        "category": "android",
+        "question": "SharedFlow와 StateFlow의 차이는?",
+        "sampleAnswer": "StateFlow는 현재 상태를 유지하고, SharedFlow는 상태 없이 이벤트를 전파합니다.",
+        "keywords": ["StateFlow", "SharedFlow", "코루틴", "상태", "이벤트"]
+    },
+    
 ]

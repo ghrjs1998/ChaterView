@@ -8,4 +8,4 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-KAKAO_APP_KEY = $(inherited)
+KAKAO_APP_KEY = 528b15e552d70506527d80c578cac660

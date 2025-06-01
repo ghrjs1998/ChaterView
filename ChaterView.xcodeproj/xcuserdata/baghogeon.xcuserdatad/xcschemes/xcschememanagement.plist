@@ -7,7 +7,30 @@
 		<key>ChaterView.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+		<key>Promises (Playground).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0AEC8A672DA669B900C3532C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AEC8A772DA669BB00C3532C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AEC8A812DA669BB00C3532C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -293,4 +293,74 @@
         "sampleAnswer": "무한 스크롤, Lazy Load 등 요소의 화면 진입 여부를 감지할 때 사용합니다.",
         "keywords": ["IntersectionObserver", "무한 스크롤", "Lazy Load", "화면 감지"]
     },
+    {
+        "id": "11111111-1111-1111-1111-000000000043",
+        "category": "frontend",
+        "question": "React의 StrictMode는 어떤 역할을 하나요?",
+        "sampleAnswer": "StrictMode는 잠재적인 문제를 사전에 감지하기 위한 개발용 도구입니다.",
+        "keywords": ["React", "StrictMode", "개발", "디버깅", "문제 감지"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000044",
+        "category": "frontend",
+        "question": "React에서 포털(Portal)이란?",
+        "sampleAnswer": "포털은 부모 컴포넌트 바깥 DOM 노드에 자식을 렌더링할 수 있게 해줍니다.",
+        "keywords": ["React", "포털", "Portal", "DOM", "렌더링"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000045",
+        "category": "frontend",
+        "question": "React의 Concurrent Mode는 무엇인가요?",
+        "sampleAnswer": "Concurrent Mode는 UI 응답성을 높이기 위해 작업을 병렬로 처리하는 기능입니다.",
+        "keywords": ["React", "Concurrent Mode", "병렬 처리", "응답성", "성능"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000046",
+        "category": "frontend",
+        "question": "자바스크립트의 모듈 시스템에는 어떤 것이 있나요?",
+        "sampleAnswer": "CommonJS, AMD, ES Modules 등이 있으며 현재는 ES Modules가 주로 사용됩니다.",
+        "keywords": ["JavaScript", "모듈", "ESM", "CommonJS", "AMD"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000047",
+        "category": "frontend",
+        "question": "프론트엔드에서 성능 병목 현상을 진단하는 방법은?",
+        "sampleAnswer": "DevTools의 Performance 탭으로 프레임 단위 렌더링 시간 등을 분석합니다.",
+        "keywords": ["성능 분석", "DevTools", "프레임", "렌더링", "병목"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000048",
+        "category": "frontend",
+        "question": "useLayoutEffect와 useEffect의 차이는?",
+        "sampleAnswer": "useLayoutEffect는 DOM 업데이트 직후 실행되고, useEffect는 그 다음에 실행됩니다.",
+        "keywords": ["React", "useLayoutEffect", "useEffect", "DOM", "차이"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000049",
+        "category": "frontend",
+        "question": "브라우저의 캐시 전략에는 어떤 것이 있나요?",
+        "sampleAnswer": "캐시 제어 헤더를 통해 no-cache, max-age, ETag 등의 전략을 사용합니다.",
+        "keywords": ["캐시", "브라우저", "max-age", "ETag", "no-cache"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000050",
+        "category": "frontend",
+        "question": "React에서 커스텀 훅(Custom Hook)은 언제 사용하나요?",
+        "sampleAnswer": "복잡한 로직을 재사용 가능하게 추출할 때 커스텀 훅을 사용합니다.",
+        "keywords": ["React", "Custom Hook", "재사용", "로직", "훅"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000051",
+        "category": "frontend",
+        "question": "프론트엔드와 백엔드 간 보안 통신은 어떻게 구현하나요?",
+        "sampleAnswer": "HTTPS 사용, 토큰 기반 인증, CORS 설정 등을 통해 보안 통신을 구현합니다.",
+        "keywords": ["보안", "HTTPS", "토큰", "CORS", "통신"]
+    },
+    {
+        "id": "11111111-1111-1111-1111-000000000052",
+        "category": "frontend",
+        "question": "클라이언트 상태와 서버 상태의 차이는?",
+        "sampleAnswer": "클라이언트 상태는 UI 중심 정보이며, 서버 상태는 API로부터 가져온 데이터입니다.",
+        "keywords": ["클라이언트 상태", "서버 상태", "UI", "API", "데이터"]
+    },
 ]

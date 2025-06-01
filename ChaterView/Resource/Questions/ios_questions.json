@@ -293,4 +293,74 @@
         "sampleAnswer": "static은 재정의 불가능한 정적 속성, class는 서브클래스에서 재정의 가능한 속성에 사용됩니다.",
         "keywords": ["static", "class", "재정의", "정적 속성", "Swift"]
     },
+    {
+        "id": "44444444-4444-4444-4444-000000000043",
+        "category": "ios",
+        "question": "Swift의 guard문과 if문의 차이는 무엇인가요?",
+        "sampleAnswer": "guard는 조건이 거짓이면 블록을 빠져나가고, if는 조건이 참일 때 코드가 실행됩니다. guard는 조기 종료에 사용됩니다.",
+        "keywords": ["guard", "if", "조건문", "조기 종료", "Swift"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000044",
+        "category": "ios",
+        "question": "iOS에서 App Sandbox는 어떤 역할을 하나요?",
+        "sampleAnswer": "App Sandbox는 앱이 시스템과 다른 앱의 데이터에 접근하지 못하도록 제한하는 보안 메커니즘입니다.",
+        "keywords": ["Sandbox", "보안", "iOS", "앱 격리"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000045",
+        "category": "ios",
+        "question": "iOS에서 main thread에서 수행해야 하는 작업은?",
+        "sampleAnswer": "UI 업데이트와 관련된 모든 작업은 main thread에서 수행해야 합니다.",
+        "keywords": ["main thread", "UI 업데이트", "스레드", "iOS"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000046",
+        "category": "ios",
+        "question": "SwiftUI의 ForEach는 어떻게 동작하나요?",
+        "sampleAnswer": "ForEach는 식별 가능한 데이터 컬렉션을 기반으로 뷰를 반복적으로 생성합니다.",
+        "keywords": ["SwiftUI", "ForEach", "반복", "식별자", "컬렉션"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000047",
+        "category": "ios",
+        "question": "Combine에서 debounce와 throttle의 차이는?",
+        "sampleAnswer": "debounce는 마지막 이벤트 이후 일정 시간 기다린 후 실행되고, throttle은 일정 간격으로 이벤트를 제한합니다.",
+        "keywords": ["Combine", "debounce", "throttle", "이벤트 제어"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000048",
+        "category": "ios",
+        "question": "Swift에서 lazy var는 언제 유용한가요?",
+        "sampleAnswer": "lazy var는 초기화 비용이 큰 변수를 실제로 사용할 때까지 지연시키고 싶을 때 유용합니다.",
+        "keywords": ["lazy var", "지연 초기화", "성능", "Swift"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000049",
+        "category": "ios",
+        "question": "UIKit과 SwiftUI의 주요 차이점은?",
+        "sampleAnswer": "UIKit은 명령형 방식이며, SwiftUI는 선언형 UI 프레임워크입니다. 코드 스타일과 데이터 바인딩 방식이 다릅니다.",
+        "keywords": ["UIKit", "SwiftUI", "선언형", "명령형", "UI"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000050",
+        "category": "ios",
+        "question": "뷰의 레이아웃을 설정할 때 Auto Layout의 장점은?",
+        "sampleAnswer": "Auto Layout은 다양한 화면 크기에서 동적으로 UI를 조정할 수 있도록 도와줍니다.",
+        "keywords": ["Auto Layout", "레이아웃", "제약", "반응형 UI"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000051",
+        "category": "ios",
+        "question": "iOS에서 Accessibility를 어떻게 지원하나요?",
+        "sampleAnswer": "VoiceOver, 접근성 라벨 설정, Dynamic Type 지원 등을 통해 접근성을 향상시킬 수 있습니다.",
+        "keywords": ["접근성", "Accessibility", "VoiceOver", "Dynamic Type"]
+    },
+    {
+        "id": "44444444-4444-4444-4444-000000000052",
+        "category": "ios",
+        "question": "iOS 앱의 상태 복원(State Restoration)은 무엇인가요?",
+        "sampleAnswer": "사용자가 앱을 종료했다가 다시 열었을 때 이전 상태를 복원해주는 기능입니다.",
+        "keywords": ["State Restoration", "상태 복원", "앱 종료", "iOS"]
+    },
 ]
